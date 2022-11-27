@@ -22,7 +22,7 @@ Here we have 4 layers: GUI, business layer, persistence layer, database layer
 * Maven 4.0
 * Java Servlet API 4.0.1
 * JDBC
-* Jakarta server pages
+* Jakarta Server Pages
 * MySQL 8.0.22
 * TomCat 9.0.68
 
