@@ -1,12 +1,10 @@
-🚕Simple-taxi-app🚕
+# 🚕Simple-taxi-app🚕
 <h2>📣 Project description 📣</h2>
-___
-<blockquote>It's simple web-application that supports CRUD operation and registration with authorization.
+It's simple web-application that supports CRUD operations and registration with authorization.
 This project follows SOLID and also build according to N-tier architecture patterns.
-Here we have 4 layers: GUI, business layer, persistence layer, database layer</blockquote>
+Here we have 4 layers: GUI, business layer, persistence layer, database layer
 
-<h2>📝Features</h2>
-___
+## <h2>📝Features</h2>
 * Registration as a driver
 * Authentication as a driver
 * Authenticated driver can perform CRUD operations over manufacturers/cars/drivers
@@ -14,14 +12,12 @@ ___
 * Displays all manufacturers/drivers/cars
 * Logout option
 
-<h2>📚Project structure</h2>
-___
+## <h2>📚Project structure</h2>
 <p>💠The GUI layer is represented by jsp pages</p>
 <p>💠Controllers are main components of business layer and responsible for working with HTTP methods</p>
 <p>💠DAO classes represent persistence layer and responsible for CRUD operations with database entities</p>
 
-<h2>🌐Technologies</h2>
-___
+## <h2>🌐Technologies</h2>
 * JDK 11
 * Maven 4.0
 * Java Servlet API 4.0.1
@@ -30,9 +26,9 @@ ___
 * MySQL 8.0.22
 * TomCat 9.0.68
 
-<h2>🚀Instructions for launching the project</h2>
-___
+## <h2>🚀Instructions for launching the project</h2>
 <h4>To run this project locally, follow these steps:</h4>
+
 1️⃣ You should install TomCat version 9 and MySQL
 
 2️⃣  Clone this project from GitHub
