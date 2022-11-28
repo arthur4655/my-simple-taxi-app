@@ -17,6 +17,10 @@ Here we have 4 layers: GUI, business layer, persistence layer, database layer
 <p>💠Controllers are main components of business layer and responsible for working with HTTP methods</p>
 <p>💠DAO classes represent persistence layer and responsible for CRUD operations with database entities</p>
 
+<h3>Scheme of relations between entities in database</h3>
+
+<img src="img/taxi_models_diagram.jpeg">
+
 ## <h2>🌐Technologies</h2>
 * JDK 11
 * Maven 4.0
@@ -25,6 +29,7 @@ Here we have 4 layers: GUI, business layer, persistence layer, database layer
 * Jakarta Server Pages
 * MySQL 8.0.22
 * TomCat 9.0.68
+* Dependency injection
 
 ## <h2>🚀Instructions for launching the project</h2>
 <h4>To run this project locally, follow these steps:</h4>
@@ -35,6 +40,7 @@ Here we have 4 layers: GUI, business layer, persistence layer, database layer
 
 3️⃣  Run query from init_db to create local database schema
 
-4️⃣  Configure ConnectionUtil class in util package
+4️⃣  Configure [ConnectionUtil](src/main/java/taxi/util/ConnectionUtil.java), set username and password values for your database to corresponding fields
+
 
 5️⃣  Configure TomCat for this project and run it
